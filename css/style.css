@@ -56,3 +56,34 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  /* Fixing the namefield */
+  #name{
+    width: 30vh;
+    background-color: lightgray;
+    color: black;
+    border-color: black;
+    overflow: visible;
+  }
+
+  /* Styling the Title */
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* Fix accessibility issue with the submit button */
+  input[type="submit"] {
+    background-color: darkgreen;
+  }
+
+  #message{
+    width: 30vh;
+  }
+
+  #image{
+    width: 30vh;
+  }
